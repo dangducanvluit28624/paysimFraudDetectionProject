@@ -1,4 +1,4 @@
-pyspark==3.5.2
+pyspark==3.5.8
 pandas
 numpy
 matplotlib
