@@ -15,8 +15,8 @@ def create_spark_session():
         .config("spark.driver.memory", "4g") \
         .config("spark.executor.memory", "4g") \
         .config("spark.jars.packages", "org.mongodb.spark:mongo-spark-connector_2.12:10.3.0") \
-        .config("spark.mongodb.read.connection.uri", "mongodb://REDACTED@redacted.invalid") \
-        .config("spark.mongodb.write.connection.uri", "mongodb://REDACTED@redacted.invalid") \
+        .config("spark.mongodb.read.connection.uri", "") \
+        .config("spark.mongodb.write.connection.uri", "") \
         .config("spark.network.timeout", "800s") \
         .config("spark.executor.heartbeatInterval", "120s") \
         .getOrCreate()
