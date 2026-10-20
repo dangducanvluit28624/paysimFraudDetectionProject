@@ -12,7 +12,7 @@ os.environ['PYSPARK_DRIVER_PYTHON'] = sys.executable
 os.environ['SPARK_LOCAL_IP'] = "127.0.0.1"
 
 # MongoDB Configuration
-MONGO_URI = "mongodb://REDACTED@redacted.invalid"
+MONGO_URI = 
 
 def create_spark_session():
     # We need both Kafka and MongoDB packages
