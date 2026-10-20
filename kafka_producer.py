@@ -9,7 +9,7 @@ KAFKA_TOPIC = 'paysim-transactions'
 KAFKA_BROKER = 'localhost:9092'
 
 # MongoDB configuration
-MONGO_URI = 'mongodb://REDACTED@redacted.invalid'
+
 DB_NAME = 'fraudDetection'
 COLLECTION_NAME = 'paysimData'
 
