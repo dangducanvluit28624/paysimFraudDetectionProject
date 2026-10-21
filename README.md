@@ -659,7 +659,7 @@ spark = SparkSession.builder \
 ## 11.1 Clone repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/dangducanvluit28624/paysimFraudDetectionProject
 
 cd paysimFraudDetectionProject
 ```
