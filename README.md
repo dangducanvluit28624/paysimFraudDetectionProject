@@ -643,11 +643,11 @@ spark = SparkSession.builder \
     .appName("FraudDetection") \
     .config(
         "spark.mongodb.read.connection.uri",
-        "mongodb://localhost:27017/fraudDetection.paysimData"
+        ""
     ) \
     .config(
         "spark.mongodb.write.connection.uri",
-        "mongodb://localhost:27017/fraudDetection.fraudResults"
+        ""
     ) \
     .getOrCreate()
 ```
